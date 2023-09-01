@@ -1,0 +1,293 @@
+{
+  "kind": "collectionType",
+  "collectionName": "historicos",
+  "info": {
+    "singularName": "historico",
+    "pluralName": "historicos",
+    "displayName": "historico",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VrcRadSol": {
+      "type": "string",
+      "minLength": 20
+    },
+    "VcrNomAti": {
+      "type": "string",
+      "minLength": 50
+    },
+    "Vcrld": {
+      "type": "integer",
+      "min": 11,
+      "required": true
+    },
+    "VcrCodHis": {
+      "type": "integer",
+      "min": 11
+    },
+    "Vcrano": {
+      "type": "date"
+    },
+    "VcrIdSerP": {
+      "type": "integer",
+      "required": true,
+      "min": 11
+    },
+    "VcrIdSol": {
+      "type": "richtext",
+      "maxLength": 12,
+      "required": true
+    },
+    "VcrFecSol": {
+      "type": "date"
+    },
+    "VcrRadRes": {
+      "type": "biginteger",
+      "min": "20"
+    },
+    "VcrFecRad": {
+      "type": "date"
+    },
+    "VcrDiaResp": {
+      "type": "integer",
+      "min": 11
+    },
+    "VcrIdRie": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "VcrEntSol": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrNoIde": {
+      "type": "string",
+      "minLength": 10
+    },
+    "VcrCel": {
+      "type": "integer",
+      "min": 11
+    },
+    "VcrCodForm": {
+      "type": "string",
+      "minLength": 20
+    },
+    "VcrFecVis": {
+      "type": "date"
+    },
+    "VcrDir": {
+      "type": "text",
+      "minLength": 70
+    },
+    "VcrIdBarVe": {
+      "type": "text",
+      "minLength": 10
+    },
+    "VcrIdCom": {
+      "type": "text",
+      "minLength": 12
+    },
+    "VcrIdCorr": {
+      "type": "string",
+      "minLength": 12
+    },
+    "VcrIdMot": {
+      "type": "string",
+      "minLength": 12,
+      "required": true
+    },
+    "VcrLon": {
+      "type": "string",
+      "minLength": 12
+    },
+    "VcrLat": {
+      "type": "string",
+      "minLength": 12
+    },
+    "VcrIdFen": {
+      "type": "string",
+      "minLength": 12,
+      "required": true
+    },
+    "VcrIdCar": {
+      "type": "string",
+      "minLength": 12,
+      "required": true
+    },
+    "VcrAyuHum": {
+      "type": "string",
+      "minLength": 2,
+      "required": true
+    },
+    "VcrPerHer": {
+      "type": "string",
+      "minLength": 3
+    },
+    "VcrPerFall": {
+      "type": "string",
+      "minLength": 3
+    },
+    "VcrTraCas": {
+      "type": "string",
+      "minLength": 2
+    },
+    "VcrCop": {
+      "type": "text",
+      "minLength": 70
+    },
+    "VcrEstTra": {
+      "type": "text"
+    },
+    "VcrObsHis": {
+      "type": "text"
+    },
+    "VcrUbiInf": {
+      "type": "text"
+    },
+    "VcrResInf": {
+      "type": "text"
+    },
+    "VcrIdTra1": {
+      "min": 10,
+      "type": "integer",
+      "private": true
+    },
+    "VcrRadTra1": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrFecTra1": {
+      "type": "date"
+    },
+    "VcrResTra1": {
+      "type": "text"
+    },
+    "VcrIdTra2": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "VcrRadTra2": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrFecTra2": {
+      "type": "date"
+    },
+    "VcrResTra2": {
+      "type": "text"
+    },
+    "VcrIdTra3": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "VcrRadTra3": {
+      "type": "string",
+      "minLength": 40
+    },
+    "VcrFecTra3": {
+      "type": "date"
+    },
+    "VcrResTra3": {
+      "type": "string",
+      "minLength": 40
+    },
+    "VcrIdTra4": {
+      "type": "integer",
+      "private": true
+    },
+    "VcrRadTra4": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrFecTra4": {
+      "type": "date"
+    },
+    "VcrResTra4": {
+      "type": "text"
+    },
+    "VcrIdTra5": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "VcrRadTra5": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrFecTra5": {
+      "type": "date"
+    },
+    "VcrResTra5": {
+      "type": "text"
+    },
+    "VcrIdTra6": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "VcrRadTra6": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrIdTra7": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "VcrRadTra7": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrIdTra8": {
+      "min": 10,
+      "type": "integer",
+      "private": true
+    },
+    "VcrRadTra8": {
+      "type": "string",
+      "minLength": 30
+    },
+    "VcrdTra2": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "field4": {
+      "type": "string",
+      "minLength": 40
+    },
+    "VcrI": {
+      "type": "string",
+      "minLength": 40
+    },
+    "field6": {
+      "type": "string",
+      "minLength": 40
+    },
+    "field5": {
+      "type": "string",
+      "minLength": 40
+    },
+    "VcrDirNom": {
+      "type": "string",
+      "minLength": 70
+    },
+    "created_by_id": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    },
+    "updated_by_id": {
+      "type": "integer",
+      "min": 10,
+      "private": true
+    }
+  }
+}
